@@ -1,4 +1,4 @@
 ## cn-base - 基础语言/运行时环境
 #cn-base|python
-tiger-dev|nginx
+tiger-dev|ghcr.io/kubeflow/kubeflow/notebook-servers/jupyter-scipy:v1.11.1
 
