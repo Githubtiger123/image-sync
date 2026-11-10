@@ -1,10 +1,19 @@
 ## cn-base - 基础语言/运行时环境
 #cn-base|python
-tiger-dev|ghcr.io/kubeflow/kubeflow/notebook-servers/jupyter-scipy:v1.11.1
-tiger-dev|ghcr.io/kubeflow/kubeflow/notebook-servers/jupyter-pytorch-full:v1.11.1
-tiger-dev|ghcr.io/kubeflow/kubeflow/notebook-servers/jupyter-pytorch-cuda-full:v1.11.1
-tiger-dev|ghcr.io/kubeflow/kubeflow/notebook-servers/jupyter-tensorflow-full:v1.11.1
-tiger-dev|ghcr.io/kubeflow/kubeflow/notebook-servers/jupyter-tensorflow-cuda-full:v1.11.1
-tiger-dev|ghcr.io/kubeflow/kubeflow/notebook-servers/codeserver-python:v1.11.1
-tiger-dev|ghcr.io/kubeflow/kubeflow/notebook-servers/rstudio-tidyverse:v1.11.1
-
+tiger-dev|quay.io/argoproj/argoexec:v4.1.6
+tiger-dev|ghcr.io/kubeflow/kfp-driver:2.18.0
+tiger-dev|ghcr.io/kubeflow/kfp-launcher:2.18.0
+tiger-dev|ghcr.io/kubeflow/trainer/torchtune-trainer:v2.3.0
+tiger-dev|ghcr.io/kubeflow/trainer/dataset-initializer:v2.3.0
+tiger-dev|ghcr.io/kubeflow/trainer/model-initializer:v2.3.0
+tiger-dev|ghcr.io/kubeflow/trainer/mlx-runtime:v2.3.0
+tiger-dev|ghcr.io/kubeflow/trainer/deepspeed-runtime:v2.3.0
+tiger-dev|ghcr.io/kubeflow/trainer/xgboost-runtime:v2.3.0
+tiger-dev|nvcr.io/nvidia/jax:25.10-py3
+tiger-dev|nvcr.io/nvidia/tritonserver:23.05-py3
+tiger-dev|ghcr.io/llm-d/llm-d-cuda:v0.9.0
+tiger-dev|ghcr.io/llm-d/llm-d-router-disagg-sidecar:v0.10.0
+tiger-dev|ghcr.io/llm-d/llm-d-router-endpoint-picker:v0.10.0
+tiger-dev|quay.io/argoproj/argoexec:v4.1.6
+tiger-dev|ghcr.io/kubeflow/kfp-driver:2.18.0
+tiger-dev|ghcr.io/kubeflow/kfp-launcher:2.18.0
